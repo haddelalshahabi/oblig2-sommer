@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.parent{
+    background-image: url("https://img.pikbest.com/58pic/35/44/17/53058PICd5DXckRH6DEnS_PIC2018.png!c1024wm0/compress/true/progressive/true/format/webp/fw/1024");
+}
+h1{
+    padding: 20px 70px 20px 70px;
+    background-color: bisque;
+    width: 500px;
+    height: 20pxs;
+    margin-left:  35% ;
+    font-family:cursive;
+    font-size: 28px;
+    
+}
+a{
+    border: 2px solid rosybrown;
+    background-color: bisque;
+    font-size: 20px;
+    font-family:cursive;
+    
+}
+
+
+.bilde1,
+.bilde2,
+.bilde3,
+.bilde4,
+.bilde5,
+.bilde6 {
+   
+ padding: 10px;
+width:25%;
+height: 360px;
+
+    border: 1px solid red;
+}
+
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.parent div{
+    padding:50px;
+    color: rgba(87, 49, 49, 0.938);
+    font-size: 20px;
+    text-align: bold;
+     width: 100%;
+     margin-bottom: 10px;
+    
+}
+@media(max-width:767px){
+    .parent div{
+        width: 75%;
+        background-color: lightpink;
+
+
+    }
+
+}
+
+@media(min-width:768px){
+
+    .parent div {
+        width: 50%;
+        background-color: aqua;
+
+    }
+}
+
+@media(min-width:992px){
+
+    .parent div {
+        margin: 10px 10px 10ox 10px;
+        padding: 30px;
+        width :calc(30% - 10px);
+        background-color: rgb(145, 116, 158);
+
+}}
+@media(min-width:1200px){
+
+}
+
+p{
+    padding: 5px;
+    background-color: aquamarine;
+    border: 0px solid blueviolet;
+display: inline-block;
+font-size: smaller;
+font-family: cursive;
+
+}
